@@ -24,7 +24,7 @@ publish/
 TestResult.xml
 *.trx
 
-# Azure Role ASDK 相关
+# Azure Role SDK 相关
 csx/
 *.cspkg
 
