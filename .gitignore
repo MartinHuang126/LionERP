@@ -1,0 +1,109 @@
+# Visual Studio 相关
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET Core 相关
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.dll.config
+*.cache
+*.log
+logs/
+*.xml
+
+# 发布文件
+publish/
+
+# 测试相关
+TestResult.xml
+*.trx
+
+# Azure Role ASDK 相关
+csx/
+*.cspkg
+
+# 用户特定的文件
+*.rsuser
+*.slnx.sqlite
+*.migrationbackup
+
+# 包相关
+[node_modules/]()
+jspm_packages/
+
+# 构建结果
+build/
+dist/
+out/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 上传文件
+uploads/
+temp/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统相关
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+
+# NuGet 相关
+packages/
+*.nupkg
+
+# 前端相关
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# 敏感配置文件
+**/appsettings.*.json
+!**/appsettings.example.json
+
+# 临时文件
+*.tmp
+*.temp
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# 个人配置文件
+*.json.user
+*.xml.user
+
+# 日志目录
+/logs/
+/log/
+
+# 数据目录
+/data/
