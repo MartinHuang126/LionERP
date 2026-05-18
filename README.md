@@ -1,7 +1,5 @@
 # LionERP - 拼多多1688铺货ERP系统
 
-![LionERP Logo](docs/images/logo.png)
-
 > 🦁 **LionERP** - 为拼多多商家打造的智能ERP系统，让铺货、订单、采购、售后、客服一站式管理！
 
 ---
@@ -143,49 +141,27 @@ LionERP/
 ├── src/
 │   ├── LionERP.Core/                # 领域核心层
 │   │   ├── Entities/               # 实体类
-│   │   │   ├── Product.cs         # 商品实体
-│   │   │   ├── Order.cs           # 订单实体
-│   │   │   ├── PurchaseOrder.cs  # 采购订单实体
-│   │   │   ├── AfterSale.cs      # 售后实体
-│   │   │   └── Shop.cs           # 店铺实体
 │   │   ├── Interfaces/           # 接口定义
-│   │   │   ├── IRepository.cs   # 仓储接口
-│   │   │   └── IService.cs      # 服务接口
 │   │   ├── DomainEvents/         # 领域事件
 │   │   └── ValueObjects/         # 值对象
 │   │
 │   ├── LionERP.Application/        # 应用服务层
 │   │   ├── DTOs/                 # 数据传输对象
-│   │   │   ├── ProductDto.cs
-│   │   │   ├── OrderDto.cs
-│   │   │   └── ...
 │   │   ├── Interfaces/           # 服务接口
 │   │   ├── Services/             # 应用服务实现
-│   │   │   ├── ProductService.cs
-│   │   │   ├── OrderService.cs
-│   │   │   └── ...
 │   │   └── Profiles/             # AutoMapper 配置
 │   │
 │   ├── LionERP.Infrastructure/    # 基础设施层
 │   │   ├── Data/                 # 数据访问
-│   │   │   ├── ApplicationDbContext.cs
-│   │   │   └── Migrations/
 │   │   ├── Repositories/         # 仓储实现
 │   │   ├── ExternalServices/     # 外部服务集成
-│   │   │   ├── PddApi/          # 拼多多 API
-│   │   │   ├── Ali1688Api/      # 1688 API
-│   │   │   └── AiService/       # AI 大模型服务
 │   │   └── Services/             # 基础设施服务
 │   │
 │   └── LionERP.Api/              # Web API 层
 │       ├── Controllers/           # 控制器
-│       │   ├── ProductsController.cs
-│       │   ├── OrdersController.cs
-│       │   └── ...
 │       ├── Middlewares/           # 中间件
 │       ├── Filters/               # 过滤器
-│       ├── appsettings.json       # 配置文件
-│       └── Program.cs            # 入口文件
+│       └── appsettings.json       # 配置文件
 │
 ├── frontend/                      # 前端项目
 │   ├── src/
@@ -193,21 +169,12 @@ LionERP/
 │   │   ├── pages/                # 页面
 │   │   ├── services/             # API 服务
 │   │   └── store/                # 状态管理
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-├── tests/                         # 测试项目
-│   ├── LionERP.Core.Tests/
-│   ├── LionERP.Application.Tests/
-│   └── LionERP.Api.Tests/
+│   └── package.json
 │
 ├── docs/                          # 文档
-│   ├── 妙手ERP功能参考.md          # 妙手功能参考文档
-│   ├── API文档.md
-│   ├── 数据库设计.md
-│   └── images/
+│   └── 妙手ERP功能参考.md
 │
+├── tests/                         # 测试项目
 ├── .gitignore
 ├── LionERP.sln                    # 解决方案文件
 └── README.md
